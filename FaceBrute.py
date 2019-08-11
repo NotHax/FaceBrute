@@ -23,21 +23,22 @@ import hashlib
 API_SECRET = "62f8ce9f74b12f84c123cc23437a4a32"
 
 __banner__ = """
-       +=======================================+
-       |..........Facebook Cracker v 1.........|
-       +---------------------------------------+
-       |#Author: DedSecTL <dtlily>             |
-       |#Contact: Telegram @dtlily             |
-       |#Date: Fri Feb 8 10:15:49 2019         |
-       |#This tool is made for pentesting.     |
-       |#Changing the description of this tool |
-       |Won't made you the coder ^_^ !!!       |
-       |#Respect Coderz ^_^                    |
-       |#I take no responsibilities for the    |
-       |  use of this program !                |
-       +=======================================+
-       |..........Facebook Cracker v 1.........|
-       +---------------------------------------+
+::::::::::     :::      ::::::::  :::::::::: :::::::::  :::::::::  :::    ::: ::::::::::: ::::::::::
+:+:          :+: :+:   :+:    :+: :+:        :+:    :+: :+:    :+: :+:    :+:     :+:     :+:
++:+         +:+   +:+  +:+        +:+        +:+    +:+ +:+    +:+ +:+    +:+     +:+     +:+
+:#::+::#   +#++:++#++: +#+        +#++:++#   +#++:++#+  +#++:++#:  +#+    +:+     +#+     +#++:++#
++#+        +#+     +#+ +#+        +#+        +#+    +#+ +#+    +#+ +#+    +#+     +#+     +#+
+#+#        #+#     #+# #+#    #+# #+#        #+#    #+# #+#    #+# #+#    #+#     #+#     #+#
+###        ###     ###  ########  ########## #########  ###    ###  ########      ###     ########## v1.0
+
+╔═════════════════════════════════════════════════╗
+║Tools     : ₣aceBruteV1.0               
+║Author    : NotGuardian
+║Github    : https://github.com/NotHax
+║Instagram : https://instagram.com/notguardianyt
+║Jika Ada Bug Tinggal DM Author Aja Ya
+╚═════════════════════════════════════════════════╝"
+
 """
 
 print("[+] Facebook Brute Force\n")
