@@ -62,7 +62,7 @@ sleep 2
 nano WorldList
 echo $y "WorldList Tersimpan"
 sleep 1
-sh FaceBruteMenu.sh
+sh FCB.h
 
 ;;
 
@@ -74,7 +74,7 @@ sleep 2
 nano WorldList
 echo $y "WorldList Tersimpan"
 sleep 1
-sh FaceBruteMenu.sh
+sh FCB.sh
 
 ;;
 
