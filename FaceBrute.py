@@ -37,7 +37,7 @@ __banner__ = """
 ║Github    : https://github.com/NotHax
 ║Instagram : https://instagram.com/notguardianyt
 ║Jika Ada Bug Tinggal DM Author Aja Ya
-╚═════════════════════════════════════════════════╝"
+╚═════════════════════════════════════════════════╝
 
 """
 
