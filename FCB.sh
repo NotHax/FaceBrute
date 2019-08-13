@@ -43,6 +43,7 @@ read -p "" pil;
 case $pil in
 01)echo $y "Memilih Nomor 01"
 sleep 1
+clear
 python2 FaceBrute.py
 
 ;;
@@ -50,6 +51,7 @@ python2 FaceBrute.py
 1)clear
  echo "Memilih Nomor 1"
 sleep 1
+clear
 python2 FaceBrute.py
 
 ;;
@@ -62,7 +64,8 @@ sleep 2
 nano WorldList
 echo $y "WorldList Tersimpan"
 sleep 1
-sh FCB.h
+clear
+sh FCB.sh
 
 ;;
 
@@ -73,19 +76,25 @@ echo "Tips Buat WorldList Adalah Tempat Password Target"
 sleep 2
 nano WorldList
 echo $y "WorldList Tersimpan"
-sleep 1
+sleep 
+
+clear
 sh FCB.sh
 
 ;;
 
 00)echo "Memilih Nomor 00"
+sleep 1
 echo $y"Sampai Jumpa Lagi"
+sleep 1
 exit
 
 ;;
 
 0)echo $y "Memilih Nomor 0"
+sleep 1
 echo $y "Sampai Jumpa Lagi"
+sleep 1
 exit
 
 ;;
