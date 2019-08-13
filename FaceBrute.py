@@ -51,6 +51,6 @@ try:
 				break
 		print("\n\n [!] Selesai")
 	else:
-		print("facebrute: error: No such file or directory")
+		print("Tidak Ada WorldList")
 except KeyboardInterrupt:
 	print("facebrute: error: Keyboard interrupt")
